@@ -1,0 +1,38 @@
+{
+  "name": "ANGARALI_TR",
+  "version": "7.5.8",
+  "description": "LINE",
+  "main": "./src/kicker.js",
+  "scripts": {
+    "start": "npm run BOTCU_ANGARALI",
+    "BOTCU_ANGARALI": "node ./src/angarali.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/angarali01"
+  },
+  "author": "I'm ANGARALI_TR <angarali060901@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "qrcode-terminal": "^0.11.0",
+    "node-bignumber": "^1.2.1",
+    "utf8": "^2.1.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "thrift": "^0.10.0",
+    "thrift-http": "^1.0.1",
+    "unirest": "^0.5.0",
+    "request": "^2.0.0",
+    "request-promise": "^2.0.0",
+    "webp-converter": "^2.1.6",
+    "moment": "^2.18.1"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/angarali01/issues"
+  },
+  "homepage": "https://gitlab.com/angarali01#README",
+  "keywords": [
+    "line"
+  ]
+}
